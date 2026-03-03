@@ -30,6 +30,7 @@ export function Pricing() {
                             <ul className="space-y-5">
                                 {[
                                     "Доступ к 10 модулям навсегда",
+                                    "600 000 токенов на генерации",
                                     "Проверка домашних заданий",
                                     "Закрытый чат с участниками",
                                 ].map((item, i) => (
@@ -45,8 +46,8 @@ export function Pricing() {
 
                         {/* Right Side: Price & CTA */}
                         <div className="w-full md:w-[400px] flex flex-col items-center p-8 rounded-3xl bg-[#1a1515] border border-white/5 shadow-2xl">
-                            <div className="text-gray-500 line-through text-xl mb-2 font-sans">45 000 ₽</div>
-                            <div className="font-heading text-6xl text-white mb-8">30 000 ₽</div>
+                            <div className="text-gray-500 line-through text-xl mb-2 font-sans text-nowrap">45 000&nbsp;₽</div>
+                            <div className="font-heading text-6xl text-white mb-8 text-nowrap">30 000&nbsp;₽</div>
 
                             <a
                                 href="https://payform.ru/5aaQ1uT/"
