@@ -48,7 +48,10 @@ export function Hero() {
                     transition={{ duration: 0.7, delay: 0.6 }}
                     className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto items-center px-4 sm:px-0"
                 >
-                    <button className="btn-gradient group relative w-full sm:w-[300px] py-6 text-white font-bold text-lg rounded-xl transition-transform hover:scale-105 flex items-center justify-center gap-3">
+                    <button
+                        onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                        className="btn-gradient group relative w-full sm:w-[300px] py-6 text-white font-bold text-lg rounded-xl transition-transform hover:scale-105 flex items-center justify-center gap-3"
+                    >
                         <span>КУПИТЬ КУРС</span>
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </button>
