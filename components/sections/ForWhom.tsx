@@ -5,9 +5,9 @@ import { User, Video, TrendingUp, DollarSign } from "lucide-react";
 
 const targetAudience = [
     {
-        icon: <User className="w-8 h-8 text-[#D268FF]" />,
-        title: "БЬЮТИ-МАСТЕРАМ",
-        description: "Которые хотят получать клиентов из Reels без танцев перед камерой",
+        icon: <DollarSign className="w-8 h-8 text-green-400" />,
+        title: "ФРИЛАНСЕРАМ",
+        description: "Освоить новый востребованный навык и зарабатывать на монтаже",
     },
     {
         icon: <Video className="w-8 h-8 text-blue-400" />,
@@ -20,9 +20,9 @@ const targetAudience = [
         description: "Для продвижения личного бренда через трендовые нейро-ролики",
     },
     {
-        icon: <DollarSign className="w-8 h-8 text-green-400" />,
-        title: "ФРИЛАНСЕРАМ",
-        description: "Освоить новый востребованный навык и зарабатывать на монтаже",
+        icon: <User className="w-8 h-8 text-[#D268FF]" />,
+        title: "БЬЮТИ-МАСТЕРАМ",
+        description: "Которые хотят получать клиентов из Reels без танцев перед камерой",
     },
 ];
 

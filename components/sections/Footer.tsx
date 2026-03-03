@@ -3,7 +3,7 @@ export function Footer() {
         <footer className="py-10 border-t border-white/10 relative z-10 bg-black/50 backdrop-blur-sm text-center md:text-left">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500">
                 <div>
-                    <p>© 2024 NEIRO PRORIV. Все права защищены.</p>
+                    <p>© NEIRO PRORIV</p>
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-6">
