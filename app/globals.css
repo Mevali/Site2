@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Reference base color */
+  --background: #171313;
+  --foreground: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-montserrat);
+  --font-heading: var(--font-anton);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Custom colors for the neon theme matching reference */
+  --color-neon-purple: #D268FF;
+  --color-neon-dark: #8100A8;
+  --color-glass-bg: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Typography Utilities */
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-heading), sans-serif;
+    letter-spacing: 0.05em;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(210, 104, 255, 0.5);
+  }
+
+  .glass-card {
+    background: var(--color-glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-glass-border);
+  }
+
+  /* Specific Gradient Text from Reference */
+  .text-gradient-hero {
+    background-image: radial-gradient(circle at center, rgb(210, 104, 255) 0%, rgb(180, 80, 220) 40%, rgba(255, 255, 255, 0.8) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Button Gradient from Reference */
+  .btn-gradient {
+    background-image: radial-gradient(circle at center, rgb(210, 104, 255) 0%, rgb(80, 20, 100) 100%);
+    border: 1px solid #8100a8;
+    box-shadow: 0 0 30px rgba(210, 104, 255, 0.3);
+  }
 }
