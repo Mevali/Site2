@@ -10,12 +10,11 @@ export function Background() {
             {/* Generated Nebula/Smoke Background */}
             <div className="absolute inset-0 opacity-60 mix-blend-screen">
                 <Image
-                    src="/new-bg.png"
+                    src="/new-bg.jpg"
                     alt="Background"
                     fill
                     className="object-cover"
-                    quality={100}
-                    priority
+                    quality={80}
                 />
             </div>
 

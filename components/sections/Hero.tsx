@@ -69,10 +69,11 @@ export function Hero() {
                     className="absolute bottom-[-10%] left-[-10%] w-[40vw] h-[40vw] max-w-[500px] max-h-[500px] z-0 pointer-events-none opacity-60 mix-blend-screen hidden md:block"
                 >
                     <Image
-                        src="/hero-foreground-1.png"
+                        src="/hero-foreground-1.jpg"
                         alt="Neon Sphere Left"
                         fill
                         className="object-contain"
+                        quality={80}
                     />
                 </motion.div>
 
@@ -83,10 +84,11 @@ export function Hero() {
                     className="absolute top-[-10%] right-[-5%] w-[35vw] h-[35vw] max-w-[400px] max-h-[400px] z-0 pointer-events-none opacity-60 mix-blend-screen hidden md:block"
                 >
                     <Image
-                        src="/hero-foreground-2.png"
+                        src="/hero-foreground-2.jpg"
                         alt="Neon Sphere Right"
                         fill
                         className="object-contain"
+                        quality={80}
                     />
                 </motion.div>
 
