@@ -21,7 +21,7 @@ export function Pricing() {
                         {/* Left Side: Offer Details */}
                         <div className="flex-1 space-y-8">
                             <h2 className="font-heading text-5xl md:text-7xl text-gradient-hero">
-                                ТАРИФ "PRO"
+                                ТАРИФ &quot;PRO&quot;
                             </h2>
                             <p className="text-gray-300 text-lg font-medium">
                                 Полный доступ ко всем модулям, домашним заданиям и закрытому чату.
