@@ -41,19 +41,7 @@ export function Pricing() {
                         </div>
 
                         <div className="w-full md:w-[400px] flex flex-col items-center p-8 rounded-3xl bg-[#1a1515] border border-white/5 shadow-xl">
-                            <div className="text-gray-500 line-through text-xl mb-2 font-sans text-nowrap opacity-0">spacer</div>
-                            <div className="font-heading text-6xl text-white mb-8 text-nowrap">10 000&nbsp;₽</div>
-
-                            <a
-                                href="https://payform.ru/ptaRekS/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block w-full"
-                            >
-                                <button className="w-full py-5 bg-white/10 hover:bg-white/20 text-white font-bold text-lg rounded-xl transition-all hover:scale-105 mb-4 uppercase tracking-wide">
-                                    КУПИТЬ СЕЙЧАС
-                                </button>
-                            </a>
+                            <div className="font-heading text-6xl text-white text-nowrap">10 000&nbsp;₽</div>
                         </div>
                     </div>
                 </motion.div>
@@ -97,36 +85,7 @@ export function Pricing() {
 
                         {/* Right Side: Price & CTA */}
                         <div className="w-full md:w-[400px] flex flex-col items-center p-8 rounded-3xl bg-[#1a1515] border border-white/5 shadow-2xl">
-                            <div className="text-gray-500 line-through text-xl mb-2 font-sans text-nowrap">45 000&nbsp;₽</div>
-                            <div className="font-heading text-6xl text-white mb-8 text-nowrap">30 000&nbsp;₽</div>
-
-                            <a
-                                href="https://payform.ru/5aaQ1uT/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block w-full"
-                            >
-                                <button className="btn-gradient w-full py-5 text-white font-bold text-lg rounded-xl transition-all hover:scale-105 mb-4 uppercase tracking-wide">
-                                    КУПИТЬ СЕЙЧАС
-                                </button>
-                            </a>
-
-                            <a
-                                href="https://payform.ru/5aaQ1uT/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block w-full"
-                            >
-                                <button className="w-full py-5 bg-transparent border border-white/10 hover:bg-white/5 text-gray-300 hover:text-white font-semibold rounded-xl transition-all uppercase tracking-wide">
-                                    Рассрочка 0%
-                                </button>
-                            </a>
-
-                            <div className="mt-6 flex items-center gap-4 opacity-50 justify-center">
-                                <div className="w-8 h-5 bg-gray-600 rounded"></div>
-                                <div className="w-8 h-5 bg-gray-600 rounded"></div>
-                                <div className="w-8 h-5 bg-gray-600 rounded"></div>
-                            </div>
+                            <div className="font-heading text-6xl text-white text-nowrap">30 000&nbsp;₽</div>
                         </div>
 
                     </div>
