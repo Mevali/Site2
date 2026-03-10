@@ -41,7 +41,6 @@ export function Pricing() {
                         </div>
 
                         <div className="w-full md:w-[400px] flex flex-col items-center p-8 rounded-3xl bg-[#1a1515] border border-white/5 shadow-xl">
-                            <div className="font-heading text-6xl text-white text-nowrap">10 000&nbsp;₽</div>
                         </div>
                     </div>
                 </motion.div>
@@ -85,7 +84,6 @@ export function Pricing() {
 
                         {/* Right Side: Price & CTA */}
                         <div className="w-full md:w-[400px] flex flex-col items-center p-8 rounded-3xl bg-[#1a1515] border border-white/5 shadow-2xl">
-                            <div className="font-heading text-6xl text-white text-nowrap">30 000&nbsp;₽</div>
                         </div>
 
                     </div>
